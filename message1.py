@@ -3,7 +3,7 @@
 #2. 不要用 import os 的程式
 #3. 到 twilio 網站 查詢 sid 與 token
 from twilio.rest import Client
-account_sid = 'A'
+account_sid = 'A111'
 auth_token = 'f'
 client = Client(account_sid, auth_token)
 
