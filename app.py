@@ -1,4 +1,5 @@
-# 用 flask 架設伺服器
+# 用 flask 架設伺服器 Line bot
+
 
 from flask import Flask, request, abort
 
