@@ -18,12 +18,11 @@ class Stusent :
 
 s1 = Stusent("John", 100)
 s2 = Stusent("Allen", 95)
-print("原本成績", s1.name, s1.score)
-print("原本成績", s2.name, s2.score)
+students = [s1, s2]
 
-s2.study()
-print("有讀書後成績",s2.name, s2.score)
-
+for s in students :
+	print(s.name, "的分數是", s.score)
+	
 
 
 
